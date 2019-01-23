@@ -60,14 +60,14 @@ img{
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .nav-list{
     display: none;
     top:70px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .list-item{
     float: none;
     display: none;
@@ -78,21 +78,21 @@ img{
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .fa-close{
     display: block;
   }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .hamburger{
     display: block;
   }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   img{
     display: block;
     height:80px;
