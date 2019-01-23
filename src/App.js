@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import Navigation from './Navigation';
-import './App.css';
+import './ResponsiveNavigation.css';
 
 class App extends Component {
   render() {
