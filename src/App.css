@@ -30,6 +30,7 @@ background-color: skyblue;
   color:red;
 }
 
+
 .Menu {
   list-style-type: none;
   margin: 0;
@@ -40,6 +41,47 @@ background-color: skyblue;
 
 .Menu li {
   float: left;
+  
+}
+
+@media screen and (max-width: 767px) {
+  .nav-list{
+    display: none;
+    top:70px;
+  }
+
+
+@media screen and (max-width: 767px) {
+  .list-item{
+    float: none;
+    display: none;
+    text-align: left;
+    margin-left:10px;
+    color:red;
+    background-color:black
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .fa-close{
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .hamburger{
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  img{
+    display: block;
+    height:80px;
+    width: 200px;  
+  }
 }
 
 .menubar-menu {
