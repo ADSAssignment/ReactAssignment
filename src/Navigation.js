@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {HamburgerMenu} from 'react-hamburger-menu';
-import './App.css';
+import './ResponsiveNavigation.css';
 
 class Navigation extends Component {
 	constructor(props){

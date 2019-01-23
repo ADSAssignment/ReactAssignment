@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import logo from './logo.svg';
+import Navigation from './Navigation';
+import './ResponsiveNavigation.css';
 import './App.css';
 import Navigationbar from './Navigationbar';
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
@@ -9,10 +12,12 @@ import About from './About';
 import Contact from './Contact';
 import Homebar from './Homebar'
 
+
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navigation />
         <Router>
             <div>
               <Navigationbar />
